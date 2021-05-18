@@ -1,0 +1,42 @@
+body {
+    width: 80vw;
+    height: 80vw;
+    margin: auto;
+    background: url(./Images/wall.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+#contnair {
+    margin: auto;
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    background: url(./Images/kisspng-clock-face-roman-numerals-alarm-clocks-floor-gra-roman-numerals-5ae93d1392ff06.3737248615252349636021.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #241010c4;
+    border-radius: 50%;
+}
+.hand1  {
+    width: 5%;
+    position: absolute;
+    top: 27%;
+    left: 47%;
+    transform-origin: bottom;
+}
+.hand2 {
+    width: 4%;
+    position: absolute;
+    top: 27%;
+    left: 47.4%;
+    transform-origin: bottom;
+}
+.hand3 {
+    
+    width: 62%;
+    position: absolute;
+    top: 18%;
+    left: 18.5%;
+}
